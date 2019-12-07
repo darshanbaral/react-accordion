@@ -1,8 +1,10 @@
 {
   "name": "react-accordion",
+  "author": "Darshan Baral <darshanbaral@outlook.com> (https://darshanbaral.com)",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Simple React accordion using useEffect.",
-  "keywords": [],
+  "keywords": ["accordion"],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
