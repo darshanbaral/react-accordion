@@ -1,7 +1,7 @@
 {
-  "name": "react-accordion-3",
+  "name": "react-accordion",
   "version": "1.0.0",
-  "description": "Simple React accordion using React Hooks like useState and useRef.",
+  "description": "Simple React accordion using useEffect.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

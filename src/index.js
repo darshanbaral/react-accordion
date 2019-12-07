@@ -2,10 +2,10 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Accordion from "../components/Accordion";
+import Accordion from "./components/Accordion";
 
 // Custom contents for the accordion
-import Paragraph from "../components/Paragraph";
+import Paragraph from "./components/Paragraph";
 
 import "./styles.css";
 
