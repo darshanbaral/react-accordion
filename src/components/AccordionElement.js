@@ -10,22 +10,20 @@ function Accordion(props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <button
+      <div
         className={`accordion-button accordion-button__${props.accKey}`}
         onClick={toggleAccordion}
         style={{ transition: `all ${props.delay}` }}
       >
         <p className="accordion-title">{props.title}</p>
         <Chevron
-          className={`accordion-chevron accordion-chevron__${props.accKey} `}
-          width={10}
-          fill={"#777"}
+          className={`accordion-chevron accordion-chevron__${props.accKey}`}
           style={{
             transition: `all ${props.delay}`,
             display: props.showChevron ? "auto" : "none"
           }}
         />
-      </button>
+      </div>
       <div
         className={`accordion-content accordion-content__${props.accKey}`}
         style={{

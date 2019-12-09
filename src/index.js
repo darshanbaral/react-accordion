@@ -13,6 +13,23 @@ function App() {
   return (
     <div style={{ maxWidth: "600px", margin: "auto" }}>
       <h1>Accordion Example</h1>
+      <h2>
+        By{" "}
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://www.darshanbaral.com/"
+        >
+          Darshan
+        </a>
+        . Fork{" "}
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://github.com/darshanbaral/react-accordion"
+        >
+          here
+        </a>
+        .
+      </h2>
       <Accordion
         uniqueId="appleBerryIsPrettyGood"
         delay="0.5s"
